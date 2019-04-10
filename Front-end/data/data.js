@@ -1,3 +1,4 @@
+// Programming books
 var programmingBooks = [
     {
         name: "The C++ Programming Language, 4th Edition 4th Edition",
@@ -58,6 +59,8 @@ var programmingBooks = [
     },
 ];
 
+
+//Business books
 var businessBooks = [
     {
         name: "Gameplan: The Complete Strategy Guide to go from Starter Kit to Silver",
@@ -116,3 +119,64 @@ var businessBooks = [
         author: "Jeff McManus",
     }
 ];
+
+
+//Literature books
+var literatureBooks = [
+    {
+        name: "Beowulf: A New Verse Translation (Bilingual Edition)",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51cofDOKunL._SX331_BO1,204,203,200_.jpg",
+        description: "Composed toward the end of the first millennium, Beowulf is the elegiac narrative of the adventures of Beowulf, a Scandinavian hero who saves the Danes from the seemingly invincible monster Grendel and, later, from Grendel's mother. He then returns to his own country and dies in old age in a vivid fight against a dragon. The poem is about encountering the monstrous, defeating it, and then having to live on in the exhausted aftermath. In the contours of this story, at once remote and uncannily familiar at the beginning of the twenty-first century, Nobel laureate Seamus Heaney finds a resonance that summons power to the poetry from deep beneath its surface. Drawn to what he has called the 'four- squareness of the utterance' in ?Beowulf? and its immense emotional credibility, Heaney gives these epic qualities new and convincing reality for the contemporary reader.",
+        price: 10.84,
+        author: "Seamous Heany",
+    },
+    {
+        name: "Jack's Book of Blessings: Celtic Poems by a Scottie Dog",
+        image: "https://images-na.ssl-images-amazon.com/images/I/41xNSY8WNPL._SY498_BO1,204,203,200_.jpg",
+        description: "Everybody knows that dogs are especially good at blessing others as well as asking others to bless them",
+        price: 9.99,
+        author: "Beth Richarson",
+    },
+    {
+        name: "The House of Belonging",
+        image: "https://images-na.ssl-images-amazon.com/images/I/4139M8F2DML._SX312_BO1,204,203,200_.jpg",
+        description: "100% Satisfaction is Guaranteed! There are no problems in page content and in the paper. You will be the first to open the book cover. For Used condition books in our store; It shows signs of wear from consistent use, but it remains in good condition and works perfectly. All pages and cover are intact , but may have aesthetic issues such as price clipping, nicks, scratches, and scuffs. Pages may include some notes and highlighting. For all our books; Cargo will be delivered in the required time.",
+        price: 12.23,
+        author: "David Whyte",
+    },
+    {
+        name: "The Complete Poetry & Prose of William Blake",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51FeDAlp5tL._SX322_BO1,204,203,200_.jpg",
+        description: "Since its first publication in 1965, this edition  has been widely hailed as the best available text  of Blake's poetry and prose. Now revised, if  includes up-to-date work on variants, chronology of  poems and critical commentary by Harold Bloom.",
+        price: 22.95,
+        author: "William Blake",
+    },
+    {
+        name: "Paradise Lost",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51jphnCpx7L._SX346_BO1,204,203,200_.jpg",
+        description: "Paradise Lost is about Adam and Eve--how they came to be created and how they came to lose their place in the Garden of Eden, also called Paradise. It's the same story you find in the first pages of Genesis, expanded by Milton into a very long, detailed, narrative poem. It also includes the story of the origin of Satan. Originally, he was called Lucifer, an angel in heaven who led his followers in a war against God, and was ultimately sent with them to hell. Thirst for revenge led him to cause man's downfall by turning into a serpent and tempting Eve to eat the forbidden fruit.",
+        price: 7.89,
+        author: "John Milton",
+    },
+    {
+        name: "Macbeth",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51TG8AopDKL._SX331_BO1,204,203,200_.jpg",
+        description: "Macbeth is a tragedy written by William Shakespeare, and is considered one of his darkest and most powerful works. Set in Scotland, the play dramatizes the corrosive psychological and political effects produced when evil is chosen as a way to fulfil the ambition for power.The play is believed to have been written between 1599 and 1606, and is most commonly dated 1606. The earliest account of a performance of what was probably Shakespeare's play is the Summer of 1606, when Simon Forman recorded seeing such a play at the Globe Theatre. It was first published in the Folio of 1623, possibly from a prompt book. It was most likely written during the reign of James I, who had been James VI of Scotland before he succeeded to the English throne in 1603. James was a patron of Shakespeare's acting company, and of all the plays Shakespeare wrote during James's reign, Macbeth most clearly reflects the playwright's relationship with the sovereign.Macbeth is Shakespeare's shortest tragedy, and tells the story of a brave Scottish general named Macbeth who receives a prophecy from a trio of witches that one day he will become King of Scotland. Consumed by ambition and spurred to action by his wife, Macbeth murders King Duncan and takes the throne for himself. He is then wracked with guilt and paranoia, and he soon becomes a tyrannical ruler as he is forced to commit more and more murders to protect himself from enmity and suspicion. The bloodbath and consequent civil war swiftly take Macbeth and Lady Macbeth into the realms of arrogance, madness, and death.Shakespeare's source for the tragedy is the account of Macbeth, King of Scotland, Macduff, and Duncan in Holinshed's Chronicles (1587), a history of England, Scotland, and Ireland familiar to Shakespeare and his contemporaries, although the events in the play differ extensively from the history of the real Macbeth. In recent scholarship, the events of the tragedy are usually associated more closely with the execution of Henry Garnett for complicity in the Gunpowder Plot of 1605.In the backstage world of theatre, some believe that the play is cursed, and will not mention its title aloud, referring to it instead as 'the Scottish play'. Over the course of many centuries, the play has attracted some of the most renowned actors to the roles of Macbeth and Lady Macbeth. It has been adapted to film, television, opera, novels, comic books, and other media.",
+        price: 6.49,
+        author: "William Shakespear",
+    },
+    {
+        name: "The Wild Keeps Her Holy",
+        image: "https://images-na.ssl-images-amazon.com/images/I/41WGim51rVL._SX311_BO1,204,203,200_.jpg",
+        description: "The book title & overall themes, are inspired by the author's exit from her lifelong membership in the mormon church, after surviving & coming to terms with the ongoing abuse she experienced as a young teenager, in a religious setting. In this modern collection, Aurora describes how she ultimately found strength, holiness, & peace, not within the walls of a church building... but in the arms of the wild & her loved ones.",
+        price: 8.99,
+        author: "Tiffany Aurora",
+    },
+    {
+        name: "Canterbury Tales",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51CZYjqijPL._SX407_BO1,204,203,200_.jpg",
+        description: "A vigorous treatment of The Nun's Priest's Tale, The Pardoner's Tale, The Wife of Bath's Tale, and The Franklin's Tale. 'This carefully researched and lively edition...is richly and beautifully produced....One could not ask for a more enticing introduction to Chaucer's world.",
+        price: 4.99,
+        author: "Babara Cohen",
+    },
+]

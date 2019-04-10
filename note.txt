@@ -1,0 +1,64 @@
+JPA(Java Persistence API) is a Java API specification for relational data management in application using Java SE and Java EE.
+JPA defines a standard way for simplifying database programming for developers, reduce development time and increase productivity.
+API Package: javax.persistence
+Java Persistence Query Language (JPQL) is an object-oriented query language that is used to make queries against entities stored in a relational database
+
+Hibernate is a Object-Relational Mapping Framework that simplifies database programming for developers.
+Hibernate is an implementation (or provider) of JPA.
+Hibernate ORM: Core - use for mapping Java model classes to tables in relational databases.
+	Domain model persistence for relational databases.
+Hibernate Search:
+	full-text search for domain model
+Hibernate Validator:
+	constraints for domain model
+Hibernate OGM: 
+	domain model persistence for NoSQL databases
+Hibernate Tools:
+	plugins for Eclipse: mapping editor, console, reverse engineering...
+
+JPA's Annotations
+@Entity
+@Table
+@Column
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)	=> Auto_Increment
+
+JPA's Configuration File
++ Create persistence.xml under META-INF in the source folder
+Keyword: "JPA XML schema"
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+          http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+	version="2.1">
+	
+	<persistence-unit name="BookStore">
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://Localhost:3306/bookstoredb" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="123456" />
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		</properties>
+	</persistence-unit>
+</persistence>
+
+EntityManager - use to work with entity instances rather than working with JDBC directly.
+	Is associated with the persistence context, and we use it to interact with the database. 
+	A persistence context is a set of entity instances(objects of the model classes).
+	Manage entity instances and their lifecycle.
+	Create, Remove, Find, Query Entities.
+EntityManagerFactory
+	Create an EntityManager
+	Associates with a persistence unit
+
+How to code a Test Program?
+	Create an EntityManagerFactory
+	Create an EntityManager
+	Begin a transaction
+	Persist a Users object
+	Commit the transaction
+	Close the EntityManager
+	Close the EntityManagerFactory
+	Verify Result using MySQL Command Line Client
+

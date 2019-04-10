@@ -7,6 +7,6 @@
 <title>Book Store</title>
 </head>
 <body>
-	<h1>Welcome to Home Page!</h1>
+	<h1>This is BookStore homepage!</h1>
 </body>
 </html>
