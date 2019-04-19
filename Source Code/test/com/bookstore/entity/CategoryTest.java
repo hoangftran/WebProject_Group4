@@ -23,6 +23,8 @@ public class CategoryTest {
 		
 		System.out.println("A Category object was persisted");
 		
+		
+		
 	}
 
 }
