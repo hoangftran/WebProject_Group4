@@ -37,7 +37,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light container">
-        <a class="navbar-brand" href="./index.html">
+        <a class="navbar-brand" href="./index.jsp">
             <img src="./images/icon.PNG" alt="bookstore-logo" width="120" height="30">
         </a>
         <input type="text" placeholder="Search..." id="searchBar">
@@ -49,24 +49,57 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="./register.html">Register</a>
+                    <a class="nav-link" href="./register.jsp">Register</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    <a class="nav-link" href="./login.jsp"><i class="fas fa-sign-in-alt"></i> Login</a>
                 </li>
             </ul>
-            <a href="./shopping-cart.html"><i class="fas fa-shopping-cart text-danger"></i></a>
+            <a href="./shopping-cart.jsp"><i class="fas fa-shopping-cart text-danger"></i></a>
         </div>
     </nav>
     <br><br>
 
-
+    <!-- Content -->
+    <div class="container jumbotron">
+        <div class="row">
+            <div class="col-7">
+                <h4>Your Reviews</h4>
+            </div>
+            <div class="col-4">
+                <h4 class="text-right">John Lady</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-4">
+                <h3>Harry Potter</h3>
+                <img src="./images/harrypotter.jpg" alt="harrypotter" width="60%">
+            </div>
+            <div class="col-7 mt-4">
+                <a href="#"><i class="fas fa-star"></i></a><a href="#"><i class="fas fa-star"></i></a><a href="#"><i
+                        class="fas fa-star"></i></a><a href="#"><i class="fas fa-star"></i></a><a href="#"><i
+                        class="fas fa-star"></i></a>
+                <br><br>
+                <form method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Headline">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Your comment..."></textarea>
+                    </div>
+                    <a href="book-detail.jsp"><button type="button" class="btn btn-light">Cancle</button></a>
+                    <a href="book-detail.jsp"><button type="button" class="btn btn-primary">Submit</button></a>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <p class="text-center">Copyright by Tran Van Hoang, University of Information Technology</p>
     <ul class="nav justify-content-center bg-light">
         <li class="nav-item">
-            <a class="nav-link" href="./about.html">About</a>
+            <a class="nav-link" href="./about.jsp">About</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>

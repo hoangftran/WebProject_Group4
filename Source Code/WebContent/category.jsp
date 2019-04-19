@@ -68,7 +68,8 @@
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Business</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Health</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Marketing </a>
-                    <a href="./category.jsp" class="list-group-item list-group-item-action list-group-item-primary">Programming </a>
+                    <a href="#"
+                        class="list-group-item list-group-item-action list-group-item-primary active">Programming </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Literature </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Lifestyle </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">History </a>
@@ -102,10 +103,9 @@
         <br>
         <hr>
 
-        <h3 class="text-center">News Books:</h3>
-        <br>
+        <h3 class="text-center">Programming Books:</h3>
         <div class="row">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 mt-5">
                 <div class="card">
                     <img src="./images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -115,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 mt-5">
                 <div class="card">
                     <img src="./images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -125,7 +125,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 mt-5">
                 <div class="card">
                     <img src="./images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 mt-5">
                 <div class="card">
                     <img src="./images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -145,14 +145,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <hr>
-
-        <h3 class="text-center">Best-selling Books:</h3>
-        <br>
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 mt-5">
                 <div class="card">
                     <img src="./images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -162,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 mt-5">
                 <div class="card">
                     <img src="./images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -172,7 +165,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 mt-5">
                 <div class="card">
                     <img src="./images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -182,54 +175,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <hr>
-
-        <h3 class="text-center">Most-favored Books:</h3>
-        <br>
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 mt-5">
                 <div class="card">
                     <img src="./images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -242,7 +188,6 @@
         </div>
         <br>
         <hr>
-
     </div>
 
     <!-- Footer -->

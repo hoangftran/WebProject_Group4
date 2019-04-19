@@ -68,7 +68,8 @@
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Business</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Health</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Marketing </a>
-                    <a href="./category.jsp" class="list-group-item list-group-item-action list-group-item-primary">Programming </a>
+                    <a href="./category.jsp"
+                        class="list-group-item list-group-item-action list-group-item-primary">Programming </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Literature </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Lifestyle </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">History </a>
@@ -102,148 +103,140 @@
         <br>
         <hr>
 
-        <h3 class="text-center">News Books:</h3>
-        <br>
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="./book-detail.jsp">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
+        <div class="row jumbotron">
+            <div class="col-3">
+                <img class="img-fluid" src="./images/harrypotter.jpg" alt="book-item">
+            </div>
+            <div class="col-5">
+                <div class="star-review">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(4 reviews)</span>
+                </div>
+                <div class="description">
+                    <h2>Harry Potter</h2>
+                    Author: <a href="#">J.K.Rowling</a><br>
+                    Translater: <a href="#">Lý Lan</a>
+                    <p class="text-muted">
+                        Harry Potter has no idea how famous he is. That's because he's being raised by his miserable
+                        aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents
+                        were. But everything changes when Harry is summoned to attend an infamous school for wizards,
+                        and he begins to discover some clues about his illustrious birthright. From the surprising way
+                        he is greeted by a lovable giant, to the unique curriculum and colorful faculty at his unusual
+                        school, Harry finds himself drawn deep inside a mystical world he never knew existed and closer
+                        to his own noble destiny.
+                    </p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-4">
                 <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <hr>
-
-        <h3 class="text-center">Best-selling Books:</h3>
-        <br>
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <h4>Billing Information: </h4>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-8">
+                                <span> </span><br>
+                                <span>Price: </span><br>
+                                <span>Saving: </span><br>
+                            </div>
+                            <div class="col-4">
+                                <span><del><b>$10</b></del></span><br>
+                                <span class="text-danger"><b>$8</b></span><br>
+                                <span class="text-success"><b>$2</b></span><br>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-2"></div>
+                            <div class="col-8">
+                                <button class="btn btn-success"><i class="fas fa-shopping-cart"></i><b> Add
+                                        to cart</b></button>
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <br>
         <hr>
-
-        <h3 class="text-center">Most-favored Books:</h3>
-        <br>
         <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
+            <div class="col-6">
+                <h3>Customer reviews: </h3>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="./images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
+            <div class="col-6">
+                <a href="write-review.jsp"><button class="btn btn-outline-secondary">Review this book</button></a>
             </div>
         </div>
-        <br>
-        <hr>
-
+        <div class="row mt-5">
+            <div class="col-9 review">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span>(4 reviews)</span>
+                    </div>
+                    <div class="col-9">
+                        <h5><b class="headline">A must-having book for everyone</b></h5>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ea libero, perspiciatis minus,
+                    quia
+                    dolor consectetur eveniet ipsum temporibus odit soluta deleniti necessitatibus, quam dolorem
+                    iure
+                    quas sint est asperiores?</p>
+                <footer class="blockquote-footer">By John Lady on June 04, 2018</footer>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-9 review">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span>(4 reviews)</span>
+                    </div>
+                    <div class="col-9">
+                        <h5><b class="headline">A must-having book for everyone</b></h5>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ea libero, perspiciatis minus,
+                    quia
+                    dolor consectetur eveniet ipsum temporibus odit soluta deleniti necessitatibus, quam dolorem
+                    iure
+                    quas sint est asperiores?</p>
+                <footer class="blockquote-footer">By John Lady on June 04, 2018</footer>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-9 review">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span>(4 reviews)</span>
+                    </div>
+                    <div class="col-9">
+                        <h5><b class="headline">A must-having book for everyone</b></h5>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ea libero, perspiciatis minus,
+                    quia
+                    dolor consectetur eveniet ipsum temporibus odit soluta deleniti necessitatibus, quam dolorem
+                    iure
+                    quas sint est asperiores?</p>
+                <footer class="blockquote-footer">By John Lady on June 04, 2018</footer>
+            </div>
+        </div>
     </div>
+    <br>
+    <hr>
 
     <!-- Footer -->
     <p class="text-center">Copyright by Tran Van Hoang, University of Information Technology</p>
@@ -261,6 +254,7 @@
             <a class="nav-link" href="#">Shipping and Delivery </a>
         </li>
     </ul>
+
 
 
     <!-- Custome JavaScript -->
