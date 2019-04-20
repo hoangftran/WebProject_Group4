@@ -1,0 +1,8 @@
+View new books, best-selling books, most favorited books on home page
+Search for books
+View books listed by category
+View book's detail and reviews
+Write reviews for books
+Order books
+Check order status and shopping history
+Register/Login
