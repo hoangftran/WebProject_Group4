@@ -1,4 +1,4 @@
-complete user
+change category:
 
 business				1
 health					2
@@ -7,4 +7,6 @@ programming => science			4
 literature => poetry & drama		5
 lifestyle => personal development	6
 history => biography			7
+----------------------------------------------------
+user management: list users feature
 	
