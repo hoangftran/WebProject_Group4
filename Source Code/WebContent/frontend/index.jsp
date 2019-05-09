@@ -5,7 +5,7 @@
 
 <head>
     <title>Bookstore</title>
-    <link rel="shortcut icon" href="./images/icon3.png" type="image/png">
+    <link rel="shortcut icon" href="images/icon3.png" type="image/png">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,9 +24,8 @@
 </head>
 
 <body class="bg-light">
+    <jsp:directive.include file="header.jsp" />
 
-	<jsp:directive.include file="header.jsp" />
-	
     <!-- Content -->
     <div class="container">
         <div class="row">
@@ -35,7 +34,7 @@
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Business</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Health</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Marketing </a>
-                    <a href="./category.jsp" class="list-group-item list-group-item-action list-group-item-primary">Programming </a>
+                    <a href="./category.html" class="list-group-item list-group-item-action list-group-item-primary">Programming </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Literature </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Lifestyle </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">History </a>
@@ -45,14 +44,14 @@
                 <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="#"><img src="../images/1980books-915x423.png" class="d-block w-100" alt="..."></a>
+                            <a href="#"><img src="images/1980books-915x423.png" class="d-block w-100" alt="..."></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="#"><img src="../images/BillGate_recomend_915x423.jpg" class="d-block w-100"
+                            <a href="#"><img src="images/BillGate_recomend_915x423.jpg" class="d-block w-100"
                                     alt="..."></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="#"><img src="../images/DanKinhTe-915x423.jpg" class="d-block w-100" alt="..."></a>
+                            <a href="#"><img src="images/DanKinhTe-915x423.jpg" class="d-block w-100" alt="..."></a>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -74,9 +73,9 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="./book-detail.jsp">Book title</a></h5>
+                        <h5 class="card-title"><a href="./book-detail.html">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <p class="font-weight-bold alert alert-primary text-center">$10</p>
                     </div>
@@ -84,17 +83,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Book title</a></h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -104,7 +93,17 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">Book title</a></h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="font-weight-bold alert alert-primary text-center">$10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -121,7 +120,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -131,7 +130,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -141,7 +140,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -151,7 +150,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -168,7 +167,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -178,7 +177,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -188,7 +187,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -198,7 +197,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="../images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -209,13 +208,16 @@
         </div>
         <br>
         <hr>
+
     </div>
     <!-- End Content -->
     
-    <jsp:directive.include file="footer.jsp" />
+	<jsp:directive.include file="footer.jsp" />
+    
+
 
     <!-- Custome JavaScript -->
-    <script src="../js/main.js"></script>
+    <script src="./js/main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -228,4 +230,5 @@
         crossorigin="anonymous"></script>
 </body>
 
+</html>
 </html>

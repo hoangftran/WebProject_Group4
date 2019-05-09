@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-    <title>Login</title>
+    <title>Bookstore</title>
     <link rel="shortcut icon" href="./images/icon3.png" type="image/png">
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -24,9 +24,8 @@
 </head>
 
 <body class="bg-light">
-
     <jsp:directive.include file="header.jsp" />
-    
+
     <!-- Content -->
     <div class="container">
         <h1 class="text-center">Login</h1>
@@ -49,11 +48,9 @@
             <div class="col-3"></div>
         </div>
     </div>
-    <!-- End Content -->
-
+    
     <jsp:directive.include file="footer.jsp" />
     
-   
     <!-- Custome JavaScript -->
     <script src="./js/main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

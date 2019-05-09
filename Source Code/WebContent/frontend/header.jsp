@@ -14,11 +14,10 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light container">
-        <a class="navbar-brand" href="./index.jsp">
-            <img src="images/icon.PNG" alt="bookstore-logo" width="120" height="30">
+        <a class="navbar-brand" href="./index.html">
+            <h3>BookStore</h3>
         </a>
-        <input type="text" placeholder="Search..." id="searchBar" name="keyword">
-        <input type="button" value="Search" />
+        <input type="text" placeholder=" Search..." id="searchBar">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,13 +26,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="./register.jsp">Register</a>
+                    <a class="nav-link" href="./register.html">Register</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.jsp"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    <a class="nav-link" href="./login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
                 </li>
             </ul>
-            <a href="./shopping-cart.jsp"><i class="fas fa-shopping-cart text-danger"></i></a>
+            <a href="./shopping-cart.html"><i class="fas fa-shopping-cart text-danger"></i></a>
         </div>
     </nav>
     <br><br>
