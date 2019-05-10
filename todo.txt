@@ -8,5 +8,7 @@ literature => poetry & drama		5
 lifestyle => personal development	6
 history => biography			7
 ----------------------------------------------------
-user management: list users feature
+(done) user management: list users feature
+----------------------------------------------------
+user management: create users feature
 	
