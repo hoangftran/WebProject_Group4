@@ -16,7 +16,7 @@
 	<div align="center">
 		<hr width="60%" />
 		<h2>Quick Actions:</h2>
-		<a href="create_book">New Book</a> &nbsp; <a href="create_user">New
+		<a href="create_book">New Book</a> &nbsp; <a href="user_form.jsp">New
 			User</a> &nbsp; <a href="create_category">New Category</a> &nbsp; <a
 			href="create_customer">New Customer</a> &nbsp;
 	</div>
