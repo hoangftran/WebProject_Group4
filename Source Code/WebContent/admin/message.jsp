@@ -11,7 +11,7 @@
 	
 	
 	<div align="center">
-		<h3><mark>${message}</mark></h3>
+		<h3><i><mark>${message}</mark></i></h3>
 	</div>
 
 	

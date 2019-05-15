@@ -15,7 +15,7 @@
 	</div>
 	
 	<div align="center">
-		<h3><i>${message}</i></h3>
+		<mark><h3><i>${message}</i></h3></mark>
 	</div>
 
 	<div align="center">
