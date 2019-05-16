@@ -73,7 +73,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="./book-detail.html">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -83,7 +83,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -93,7 +93,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -103,7 +103,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -120,7 +120,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -130,7 +130,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -140,7 +140,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -150,7 +150,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -167,7 +167,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -177,7 +177,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -187,7 +187,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -197,7 +197,7 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="card">
-                    <img src="images/book-item.jpg" class="card-img-top" alt="...">
+                    <img src="images/book-item.jpg" class="card-img-top img-responsive" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="#">Book title</a></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
