@@ -10,11 +10,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.bookstore.controller.admin.BaseServlet;
 import com.bookstore.entity.Users;
 import com.bookstore.service.UserServices;
 
 @WebServlet("/admin/list_users")
-public class ListUsersSevlet extends HttpServlet {
+public class ListUsersSevlet extends BaseServlet {
 	private static final long serialVersionUID = 1L;
 
     public ListUsersSevlet() {
@@ -22,7 +23,7 @@ public class ListUsersSevlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		UserServices userServices = new UserServices(request, response);
+		UserServices userServices = new UserServices(entityManager, request, response);
 		userServices.listUser();
 	}
 

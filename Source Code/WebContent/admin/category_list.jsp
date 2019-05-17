@@ -43,7 +43,7 @@
 	<jsp:directive.include file="footer.jsp" />
 	
 	<script>
-		function confirmDelete(userId) {
+		function confirmDelete(categoryId) {
 			if(confirm('Delete the category with id ' + categoryId + '?')) {
 				window.location = 'delete_category?id=' +  categoryId;
 			}
