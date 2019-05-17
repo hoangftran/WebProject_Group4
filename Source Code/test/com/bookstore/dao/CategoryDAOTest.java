@@ -79,5 +79,21 @@ public class CategoryDAOTest extends BaseDAOTest{
 		
 		assertEquals(totalCategories, 2);
 	}
+	
+	@Test
+	public void testFindByName() {
+		String name = "Business";
+		Category category = categoryDAO.findByName(name);
+		
+		assertNotNull(category);
+	}
+	
+	@Test
+	public void testFindByNameNotFound() {
+		String name = "Business2";
+		Category category = categoryDAO.findByName(name);
+		
+		assertNull(category);
+	}
 
 }
