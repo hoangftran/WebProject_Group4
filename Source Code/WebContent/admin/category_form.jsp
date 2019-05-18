@@ -5,7 +5,14 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Create new Category</title>
+<title>
+	<c:if test="${category != null }">
+		Edit Category
+	</c:if>
+	<c:if test="${category == null }">
+		Create New Category
+	</c:if>
+</title>
 </head>
 <body>
 	<jsp:directive.include file="header.jsp" />
@@ -16,7 +23,7 @@
 				Edit Category
 			</c:if>
 			<c:if test="${category == null }">
-				Create new Category
+				Create New Category
 			</c:if>
 		</h1>
 	</div>

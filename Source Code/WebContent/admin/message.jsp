@@ -13,7 +13,7 @@
 	<div align="center">
 		<h3><i><mark>${message}</mark></i></h3>
 	</div>
-
+	
 	
 	<jsp:directive.include file="footer.jsp" />
 </body>
