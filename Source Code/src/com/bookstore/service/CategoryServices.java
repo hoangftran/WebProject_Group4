@@ -99,4 +99,12 @@ public class CategoryServices {
 			listCategory(message);
 		}
 	}
+
+	public void deleteCategory() throws ServletException, IOException {
+		int categoryId = Integer.parseInt(request.getParameter("id"));
+		categoryDAO.delete(categoryId);
+		
+		String message = "Category has been deleted successfully!";
+		listCategory(message);
+	}
 }
