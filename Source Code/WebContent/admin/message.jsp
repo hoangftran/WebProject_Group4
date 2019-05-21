@@ -12,6 +12,7 @@
 	
 	<div align="center">
 		<h3><i><mark>${message}</mark></i></h3>
+		<button onclick="javascript:history.go(-1)">Try again</button>
 	</div>
 	
 	
