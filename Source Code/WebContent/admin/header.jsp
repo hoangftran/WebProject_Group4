@@ -1,6 +1,6 @@
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
 <div align="center">
-	<h3>Welcome, admin@gmail.com | <a href="logout">Logout</a></h3>
+	<h3>Welcome, <c:out value="${sessionScope.useremail }" /> | <a href="logout">Logout</a></h3>
 	<div>
 		<a href="list_users">Users</a>  |
 		<a href="list_category">Categories</a>  |
