@@ -1,0 +1,79 @@
+﻿
+
+
+//Business books
+var businessBooks = [
+    {
+        name: "Gameplan: The Complete Strategy Guide to go from Starter Kit to Silver",
+        image: "https://images-na.ssl-images-amazon.com/images/I/41DF33qVDHL.jpg",
+        description: "With a passion for helping others and a modern approach to sharing the oils, Sarah Harnisch made it to Platinum in Young Living in just 17 months. Now she’s sharing her strategy in this densely-packed guide to take you from starter kit to Silver in Young Living.",
+        price: 18.94,
+        author: "Sarah Harnisch"
+    },
+
+
+    {
+        name: "The Ambitious Woman: What It Takes and Why You Want to Be One",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51MmUYC7qLL._SX324_BO1,204,203,200_.jpg",
+        description: "The Ambitious Woman illustrates how ambitious women embody characteristics such as inspiration, empowerment, and motivation to help others accomplish their goals, and create win-win relationships in all areas of life. When you think of the word ‘ambitious’, what comes to mind? Power hungry? Getting ahead no matter what it takes? Someone who runs over others to accomplish their goals? While many people may have a negative view of what it means to be ambitious, author, motivational speaker and women’s movement leader, Esther Spina, is not one of them.",
+        price: 17.16,
+        author: "Esther Spina",
+    },
+
+
+    {
+        name: "The Front Row Factor: Transform Your Life with the Art of Moment Making",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51l5C4lbTHL.jpg",
+        description: "It helps readers cultivate an empowering mindset, create life-long relationships and design an environment where you can thrive regardless of life conditions. ",
+        price: 14.88,
+        author: "Jon Vroman",
+    },
+
+
+    {
+        name: "Freelance to Freedom: The Roadmap for Creating a Side Business to Achieve Financial, Time and Life Freedom",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51RlKvPTrJL._SX331_BO1,204,203,200_.jpg",
+        description: "Vincent and his wife were stuck in dead end newspaper photography jobs, in debt, stressed, with a baby on the way while making $15 an hour. After winning the highest award in his field, Vincent was offered a 3 percent raise. He knew at that moment he needed a monumental change. One month away from their baby being born, Vincent and Elizabeth started a side photography business out of desperation. In less than four years, they grew their business to pay off all of their debt, including their home, and left their jobs for a life of freedom. With the world moving rapidly towards a freelance model, Freelance to Freedom is not only timely and necessary, but it’s also entertaining, engaging and paints a picture for anyone looking for a life of freedom with money, time and location.",
+        price: 12.20,
+        author: "Vincent Pugliese",
+    },
+
+
+    {
+        name: "Best Ever Apartment Syndication Book",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51kDcz-6R%2BL._SX331_BO1,204,203,200_.jpg",
+        description: "Do you want to purchase an apartment community but don't have prior real estate or apartment investing experience, don't have access to private capital, can't find a good deal, lack the skills to execute a business plan or a combination of the four?",
+        price: 53.80,
+        author: "Joe Fairless"
+    },
+
+
+    {
+        name: "Leadershift: The 11 Essential Changes Every Leader Must Embrace",
+        image: "https://images-na.ssl-images-amazon.com/images/I/411XVg0bP3L._SX332_BO1,204,203,200_.jpg",
+        description: "Internationally recognized leadership expert John C. Maxwell teaches readers how to shift their leadership to keep innovating, improving, and influencing others in today’s fast-paced world.",
+        price: 14.99,
+        author: "John C. Maxwell",
+    },
+
+
+    {
+        name: "Power Up: How Smart Women Win in the New Economy",
+        image: "https://images-na.ssl-images-amazon.com/images/I/410BXK0OUJL._SX332_BO1,204,203,200_.jpg",
+        description: "With empowering insights to help women navigate the narrowest corridors of sexism, tech-industry pioneer Magdalena Yesil shares on-the-ground career advice that is as powerful as any MBA",
+        price: 17.70,
+        author: "Magdalena Yesil",
+    },
+
+
+    {
+        name: "Growing Weeders Into Leaders: Leadership Lessons from the Ground Up",
+        image: "https://images-na.ssl-images-amazon.com/images/I/516PeWQPCvL._SY346_.jpg",
+        description: "It is an entertaining and thoughtful look into the hearts and the workday lives of ordinary people - just like you and me - who tapped into their inner greatness in pursuit of a vision. Creating one of America's most beautiful college campuses, at Ole Miss, did not happen overnight and, inside these pages, Jeff McManus describes the joys, the defeats, the brilliant problem-solving and the 'best laid plans' that are proven worthless...until the bigger picture is told. It is the 'bigger picture' told from the ground level. Growing Weeders into Leaders takes you through the practical applications of empowering people to experience not only what it means to grow outstanding landscapes, but also to grow greatness in themselves and encourage it in others.",
+        price: 11.52,
+        author: "Jeff McManus",
+    }
+];
+
+
+

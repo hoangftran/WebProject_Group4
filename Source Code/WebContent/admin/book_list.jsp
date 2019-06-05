@@ -11,7 +11,7 @@
 	<jsp:directive.include file="header.jsp" />
 	<div align="center">
 		<h2>Books Management</h2>
-		<h3><a href="book_form.jsp">Create new Book</a></h3>
+		<h3><a href="new_book">Create New Book</a></h3>
 	</div>
 	
 	<div align="center">

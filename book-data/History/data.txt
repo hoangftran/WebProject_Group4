@@ -1,0 +1,73 @@
+var historyBooks = [
+  {
+    name: "The Right Side of History: How Reason and Moral Purpose Made the West Great ",
+    image: "https://images-na.ssl-images-amazon.com/images/I/41yBdNVtIuL._SX329_BO1,204,203,200_.jpg",
+    description: "America has a God-shaped hole in its heart, argues New York Times bestselling author Ben Shapiro, and we shouldn't fill it with politics and hate",
+    price: 14.77,
+
+    author: "Ben Shapiro",
+  },
+
+
+  {
+    name: "The Diamond Formula (Inventions: Untold Stories of the Beautiful Era collection) ",
+    image: "https://images-na.ssl-images-amazon.com/images/I/51lMVynZJcL.jpg",
+    description: " A possible genius, a smidgen of madness, a twist of science, and an invention that very nearly changed the world—all collide in a giddy, unbelievably true mystery set in turn-of-the-century Paris",
+    price: 1.99,
+    author: "Alia Simone",
+  },
+
+
+  {
+    name: "The Library Book",
+    image: "https://images-na.ssl-images-amazon.com/images/I/51pmJwGu0bL._SX340_BO1,204,203,200_.jpg",
+    description: "On the morning of April 29, 1986, a fire alarm sounded in the Los Angeles Public Library. As the moments passed, the patrons and staff who had been cleared out of the building realized this was not the usual fire alarm. As one fireman recounted, “Once that first stack got going, it was ‘Goodbye, Charlie.’” The fire was disastrous: it reached 2000 degrees and burned for more than seven hours.",
+    price: 12.62,
+    author: "Susan Orlean",
+  },
+
+
+  {
+    name: "Leadership: In Turbulent Times",
+    image: "https://images-na.ssl-images-amazon.com/images/I/51oWrEk9o8L._SX327_BO1,204,203,200_.jpg",
+    description: "Are leaders born or made? Where does ambition come from? How does adversity affect the growth of leadership? Does the leader make the times or do the times make the leader?",
+    price: 18.00,
+    author: "Doris Kearns Goodwin",
+  },
+
+
+  {
+    name: "Obama: An Intimate Portrait ",
+    image: "https://images-na.ssl-images-amazon.com/images/I/51zbaGLMMfL._SY415_BO1,204,203,200_.jpg",
+    description: "During Barack Obama's two terms, Pete Souza was with the President during more crucial moments than anyone else--and he photographed them all. Souza captured nearly two million photographs of President Obama, in moments highly classified and disarmingly candid.",
+    price: 31.40,
+    author: "Pete Souza",
+  },
+
+
+  {
+    name: "Inside the Empire: The True Power Behind the New York Yankees",
+    image: "https://images-na.ssl-images-amazon.com/images/I/41K3tqJo-VL._SX329_BO1,204,203,200_.jpg",
+    description: "A riveting look at what is really said and done behind closed doors with the New York Yankees, the most famous and wealthiest sports franchise in the world",
+    price: 16.80,
+    author: "Bob Klapish",
+  },
+
+
+  {
+    name: "Texit: Why and How Texas Will Leave The Union",
+    image: "https://images-na.ssl-images-amazon.com/images/I/51tI%2BOiz5AL._SX331_BO1,204,203,200_.jpg",
+    description: " ",
+    price: 15.05,
+    author: "Daniel Miller",
+  },
+
+
+  {
+    name: "Vietnam War Army Helicopter Nose Art",
+    image: "https://images-na.ssl-images-amazon.com/images/I/51oC3CBb3dL._SX353_BO1,204,203,200_.jpg",
+    description: "Vietnam War Army Helicopter Nose Art brings to light over 250 recently recovered Vietnam War photographs from Army aviation veterans. The vast majority of these photographs have never before been published, with them all capturing that quintessential and unmistakable American war custom of embellishing one’s assigned aircraft with personalized markings. Each is accompanied by a caption containing data particular for each featured image: helicopter name, unit, serial number, photo date, photo location, crew names, artist name, photo contributor, and anecdotal information.",
+    price: 26.54,
+    author: "John Brennan",
+  },
+]

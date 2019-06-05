@@ -1,0 +1,54 @@
+﻿var lifestyfeBooks = [
+  {
+    name: "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
+    image: "https://images.gr-assets.com/books/1418767178l/22318578.jpg",
+    description: "Despite constant efforts to declutter your home, do papers still accumulate like snowdrifts and clothes pile up like a tangled mess of noodles?",
+    price: 12.44,
+    author: "Cathy Hirano",
+  },
+
+
+  {
+    name: "The Little Book of Hygge: The Danish Way to Live Well",
+    image: "https://images.gr-assets.com/books/1463433373l/30045683.jpg",
+    description: "You know hygge when you feel it. It is when you are cuddled up on a sofa with a loved one, or sharing comfort food with your closest friends. It is those crisp blue mornings when the light through your window is just right.",
+    price: 13.32,
+    author: "Meik Wiking",
+  },
+
+
+  {
+    name: "The 4-Hour Workweek",
+    image: "https://images.gr-assets.com/books/1442957271l/368593.jpg",
+    description: "What do you do? Tim Ferriss has trouble answering the question.",
+    price: 18.34,
+    author: "Timothy Ferriss",
+  },
+
+
+  {
+    name: "The Power of Habit: Why We Do What We Do in Life and Business",
+    image: "https://images.gr-assets.com/books/1545854312l/12609433.jpg",
+    description: "A young woman walks into a laboratory. Over the past two years, she has transformed almost every aspect of her life. She has quit smoking, run a marathon, and been promoted at work. The patterns inside her brain, neurologists discover, have fundamentally changed.",
+    price: 23.12,
+    author: " Charles Duhigg",
+  },
+
+
+  {
+    name: "Goodbye, Things: The New Japanese Minimalism",
+    image: "https://images.gr-assets.com/books/1478879474l/30231806.jpg",
+    description: "Fumio Sasaki is not an enlightened minimalism expert; he’s just a regular guy who was stressed at work, insecure, and constantly comparing himself to others—until one day he decided to change his life by reducing his possessions to the bare minimum. The benefits were instantaneous and absolutely remarkable: without all his “stuff,” Sasaki finally felt true freedom, peace of mind, and appreciation for the present moment.",
+    price: 15.00,
+    author: "Fumiko Sasaki , Yui Hatano",
+  },
+
+  
+  {
+    name: "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change",
+    image: "https://images.gr-assets.com/books/1421842784l/36072.jpg",
+    description: "When Stephen Covey first released The Seven Habits of Highly Effective People, the book became an instant rage because people suddenly got up and took notice that their lives were headed off in the wrong direction; and more than that, they realized that there were so many simple things they could do in order to navigate their life correctly. This book was wonderful education for people, education in how to live life effectively and get closer to the ideal of being a ‘success’ in life.",
+    price: 22.33,
+    author: "Harry Kane",
+  },
+]
